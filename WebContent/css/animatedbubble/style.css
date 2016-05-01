@@ -1,0 +1,87 @@
+
+body {
+}
+
+a, a:visited {
+  color:#333;
+}
+
+#container {
+  padding-top:20px;
+  width: 980px;
+  border-left: 2px #ddd solid;
+  border-right: 2px #ddd solid;
+}
+
+header {
+  padding: 10px;
+}
+
+#bubblediv {
+  overflow: hidden;
+  position: relative;
+}
+
+#posbubblediv {
+  overflow: hidden;
+  position: relative;
+}
+
+#negbubblediv {
+  overflow: hidden;
+  position: relative;
+}
+
+#cmnbubblediv {
+  overflow: hidden;
+  position: relative;
+}
+
+#overallbubblediv {
+  overflow: hidden;
+  position: relative;
+}
+
+#bubble-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.bubble-node {
+  /* fill: #d1e0f3; */
+  fill: lightgreen;
+}
+
+.bubble-hover {
+  /* fill: #b8c7d9; */
+  fill: #E8E9E7;
+}
+
+.bubble-selected {
+  /* fill: #a8c8ee;  */
+  fill: #E8E9E7;
+  /* stroke: #6081a3; */
+  stroke: #A6BA92;
+  stroke-width: 1.5px;
+}
+
+.active {
+  color: #A6BA92
+}
+
+a.bubble-label {
+  font-family: georgia, "times new roman", times, serif;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+
+.bubble-label .bubble-label-value {
+  font: 11px sans-serif;
+  white-space: nowrap;
+}
